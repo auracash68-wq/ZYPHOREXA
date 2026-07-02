@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Professional SEO Metadata -->
+    <title>ZYPHOREXA | AI • Digital Ecosystem • Technology Solutions</title>
+    <meta name="description" content="ZYPHOREXA is a premium technology brand delivering AI solutions, digital ecosystems, automation, web development, branding, innovation, and next-generation digital experiences." />
+    <meta name="keywords" content="ZYPHOREXA, AI, Artificial Intelligence, Technology, Automation, Digital Ecosystem, Software Development, Web Development, Premium Technology, Future Technology, Innovation" />
+    <meta name="author" content="ZYPHOREXA" />
+    <meta name="application-name" content="ZYPHOREXA" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ZYPHOREXA | AI • Digital Ecosystem • Technology Solutions" />
+    <meta property="og:description" content="ZYPHOREXA is a premium technology brand delivering AI solutions, digital ecosystems, automation, web development, branding, innovation, and next-generation digital experiences." />
+    <meta property="og:image" content="/og-image.jpg" />
+    <meta property="og:url" content="https://zyphorexa.com/" />
+    <meta property="og:site_name" content="ZYPHOREXA" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ZYPHOREXA | AI • Digital Ecosystem • Technology Solutions" />
+    <meta name="twitter:description" content="ZYPHOREXA is a premium technology brand delivering AI solutions, digital ecosystems, automation, web development, branding, innovation, and next-generation digital experiences." />
+    <meta name="twitter:image" content="/og-image.jpg" />
+
+    <!-- Professional Favicon & App Icons Configuration -->
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#FF007A" />
+
+    <!-- Canonical URL Link for Search Engines -->
+    <link id="canonical-link" rel="canonical" href="https://zyphorexa.com/" />
+    <script>
+      (function() {
+        try {
+          var url = window.location.protocol + '//' + window.location.host + window.location.pathname;
+          var canonical = document.getElementById('canonical-link');
+          if (canonical) {
+            canonical.setAttribute('href', url);
+          }
+          var ogUrl = document.querySelector('meta[property="og:url"]');
+          if (ogUrl) {
+            ogUrl.setAttribute('content', url);
+          }
+        } catch(e) {
+          console.error(e);
+        }
+      })();
+    </script>
+
+    <!-- Structured JSON-LD Data Schema (Organization, Brand, WebSite, WebPage, SearchAction) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://zyphorexa.com/#organization",
+            "name": "ZYPHOREXA",
+            "url": "https://zyphorexa.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://zyphorexa.com/#logo",
+              "url": "https://zyphorexa.com/apple-touch-icon.png",
+              "contentUrl": "https://zyphorexa.com/apple-touch-icon.png",
+              "caption": "ZYPHOREXA Logo",
+              "inLanguage": "en-US",
+              "width": 180,
+              "height": 180
+            },
+            "image": {
+              "@id": "https://zyphorexa.com/#logo"
+            },
+            "brand": {
+              "@type": "Brand",
+              "name": "ZYPHOREXA",
+              "logo": "https://zyphorexa.com/apple-touch-icon.png"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://zyphorexa.com/#website",
+            "url": "https://zyphorexa.com/",
+            "name": "ZYPHOREXA",
+            "description": "ZYPHOREXA is a premium technology brand delivering AI solutions, digital ecosystems, automation, web development, branding, innovation, and next-generation digital experiences.",
+            "publisher": {
+              "@id": "https://zyphorexa.com/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://zyphorexa.com/?s={search_term_string}"
+                },
+                "query-input": "required name=search_term_string"
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://zyphorexa.com/#webpage",
+            "url": "https://zyphorexa.com/",
+            "name": "ZYPHOREXA | AI • Digital Ecosystem • Technology Solutions",
+            "isPartOf": {
+              "@id": "https://zyphorexa.com/#website"
+            },
+            "about": {
+              "@id": "https://zyphorexa.com/#organization"
+            },
+            "description": "ZYPHOREXA is a premium technology brand delivering AI solutions, digital ecosystems, automation, web development, branding, innovation, and next-generation digital experiences.",
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
